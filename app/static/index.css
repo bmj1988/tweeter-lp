@@ -43,3 +43,7 @@ p:nth-child(2) {
     font-size: 18px;
     font-weight: bold;
 }
+
+.orange {
+    color: orange;
+}
