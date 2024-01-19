@@ -1,0 +1,15 @@
+{% include 'base.html' %}
+
+<div class="tweet">
+<form action="" method="post">
+    {{ form.hidden_tag() }}
+{{form.csrf_token}}
+<p>{{ form.author.label }}
+    {{ form.author() }}
+</p>
+<p>{{ form.tweet.label }}
+    {{ form.tweet() }}
+</p>
+<button>{{ form.submit() }}</button>
+</form>
+</div>
